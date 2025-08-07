@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+     <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index2.html" style="color: white; font-size: 20px;">
+                    <i class="fa-solid fa-house me-2"></i> Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html" style="color: white; font-size: 20px;">
+                    <i class="fa-solid fa-user me-2"></i> About
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="project.html" style="color: white; font-size: 20px;">
+                    <i class="fa-solid fa-computer me-2"></i> Projects
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+        <!-- know who i'm -->
+         <section class="section" style="background-color: #1a1a2e;">
+        <div class="d-flex justify-content-start align-items-start h-100">
+          <div class="intro text-center" style="color: white; max-width: 800px; position: relative; top: 30px;">
+            <h2>Know Who <b>I'M</b></h2>
+            <br>
+            <p style="font-size: 25px;">Hi Everyone, Iam <b>SOWJANYA ADIRAJU</b> from <b>Vizianagaram, Andhra Pradesh</b>.
+                <br>
+                Iam pursuing <b>BTech</b> third year in <b>Information Technology</b> at 
+                <br>
+                Vignan's Institute of Engineering for Women.
+                <br>
+                <ul style="list-style: none; padding-left: 0; font-size: 25px;">
+                Here are some activities I love to do:
+                <br>
+                 <li><i class="fa-regular fa-hand-point-right me-2"></i>Listening to Music</li>
+    <li><i class="fa-regular fa-hand-point-right me-2"></i>Participating in Coding Challenges</li>
+    <li><i class="fa-regular fa-hand-point-right me-2"></i>Exploring New Technologies and Building Projects</li>  
+</ul>
+            "Make it work, make it right, make it fast."
+            <br>
+            -Sowjanya
+</p>
+          </div>
+          
+          <img src="profile.jpg" alt="sow" height="300px" width="300px" id="img3">
+        
+   
+        </div>
+      </section>
+
+      <!-- Professional skillset -->
+       <section class="section" style="background-color: #1a1a2e;">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="intro text-center" style="color: white; max-width: 800px;">
+           <h2 style="position: relative; left: 305px; margin-bottom: 20px;">Professional SkillSet</h2>
+           <div class="box">
+            <div class="line-one">
+              <img src="html.jpg" alt="html" height="150px" width="150px">
+              <img src="css.jpg" alt="css" height="150px" width="150px">
+              <img src="js.webp" alt="js" height="150px" width="150px">
+              <img src="bootstrap.webp" alt="bootstrap" height="150px" width="150px">
+            </div>
+            <div class="line-two">
+              <img src="mysql.png" alt="MySQL" height="150px" width="150px">
+              <img src="git.jpg" alt="git" height="150px" width="150px">
+              <img src="java.png" alt="java" height="150px" width="150px">
+              <img src="c.avif" alt="c" height="150px" width="150px">
+            </div>
+           </div>
+           </div>
+        </div>
+      </section>
+    
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <script>
+            // Highlight active nav link on scroll
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (pageYOffset >= (sectionTop - 100)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+    </script>
+    
+</body>
+</html>
