@@ -86,16 +86,6 @@ h1{
     position: relative;
     left: 150px;
 }
-/* .card span{
-    display: inline-block;
-    height: 30px;
-    width: 850px;
-    border: 2px solid black;
-    border-radius: 70px;
-    margin-top: 40px;
-    margin-left: 20px;  
-    background: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));;
-} */
 .card .scroll{
     font-size: 20px;
     font-weight: bold;
