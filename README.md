@@ -32,7 +32,7 @@ A web-based platform designed to help users explore and plan their tech career p
 It provides personalized suggestions, resources, and insights to understand the evolving technology landscape.
 
 **Highlights:**
-- Tech stack: HTML, CSS, JavaScript and BootStrap 
+- Tech stack: HTML, CSS, JavaScript and Bootstrap 
 - Features: Interactive dashboards, guided learning modules  
 - Goal: Simplify career exploration for developers and students
 
@@ -43,7 +43,7 @@ This very site!
 A personal portfolio showcasing my professional journey, skills, and projects in a clean and structured layout.
 
 **Highlights:**
-- Built with: HTML, CSS, JavaScript
+- Built with: HTML, CSS, JavaScript and Bootstrap
 - Integrated project links for live demos and GitHub repositories  
 
 ---
@@ -53,7 +53,7 @@ A fun and interactive game inspired by the classic “Simon Says”.
 Built to test memory, logic, and sequence recognition using simple and elegant frontend concepts.
 
 **Highlights:**
-- Built with: HTML, CSS, JavaScript  
+- Built with: HTML, CSS, JavaScript and Bootstrap 
 - Features: Dynamic color sequences, sound effects, and progressive difficulty  
 - Goal: Gamify learning fundamentals of DOM manipulation and event handling  
 
@@ -62,7 +62,7 @@ Built to test memory, logic, and sequence recognition using simple and elegant f
 ## 🌐 Connect With Me
 
 Let’s connect and collaborate!  
-[LinkedIn](https://www.linkedin.com/in/sowjanyaadiraju/) • [GitHub](#) • [Twitter](https://x.com/AdirajuSow68077)
+[LinkedIn](https://www.linkedin.com/in/sowjanyaadiraju/) • [GitHub](https://github.com/Sowjanyaadi316) • [Twitter](https://x.com/AdirajuSow68077)
 
 ---
 
